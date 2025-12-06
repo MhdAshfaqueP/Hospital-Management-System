@@ -77,10 +77,8 @@
             <th>Doctor</th>
             <th>Patient Name</th>
             <th>Date</th>
-            <th>Date</th>
             <th>Time</th>
             <th>Phone</th>
-            <th>Email</th>
             <th>Action</th>
         </tr>
         <%
@@ -94,7 +92,7 @@
             <td><%= al.get(i + 4) %></td>
             <td><%= al.get(i + 5) %></td>
             <td><%= al.get(i + 6) %></td>
-            <td></td>
+            
             <td>
     <button class="delete-btn" onclick="deleteAppointment('<%= al.get(i) %>', this)">
         Delete
